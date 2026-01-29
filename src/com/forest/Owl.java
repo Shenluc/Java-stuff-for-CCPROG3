@@ -62,7 +62,13 @@ public class Owl {
     public void setSated(boolean sated){
         this.sated=sated;
     }
-
+    
+    public void fly(){
+        System.out.println("I'm Flying Twin");
+        for(int i=0;i<4;i++){
+            this.hoot();
+        }
 
 }
+
 
